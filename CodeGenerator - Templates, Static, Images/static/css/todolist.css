@@ -30,6 +30,10 @@ main{
     margin: 1em;
 }
 
+.title h2{
+    animation: bounce;
+}
+
 .header .addBtn{
     width: 50%;
     display: flex;
