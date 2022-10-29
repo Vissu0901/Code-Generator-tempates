@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mukta:wght@300;500&family=Noto+Sans:ital,wght@0,200;0,400;1,300;1,500;1,700&family=Poppins:ital,wght@0,200;0,300;1,200;1,300;1,400&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    font-family: 'Mukta', sans-serif;  
+}
+
+body{
+    margin: 1em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .title{
+    display: flex;
+}
+
+.header .title h3 span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+}
+
+.header .title h3 span:nth-child(1){
+    color: red;
+}
+
+.header .title h3 span:nth-child(2){
+    color: green;
+}
